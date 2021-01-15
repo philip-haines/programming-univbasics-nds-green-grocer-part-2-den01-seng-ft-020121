@@ -75,10 +75,13 @@ end
 def apply_clearance(cart)
   i = 0
   while i < cart.length
-end
-  # Consult README for inputs and outputs
-  #
-  # REMEMBER: This method **should** update cart
+  
+    if cart[i][:clearance] == true
+      cart[i][:price] -= cart[i][:price] / 5
+    end
+    i += 1
+  end
+  return cart
 end
 
 def checkout(cart, coupons)
