@@ -68,7 +68,6 @@ updated_cart = []
     end
     i += 1
   end
-  binding.pry
  cart
 end
     
