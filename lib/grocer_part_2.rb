@@ -71,14 +71,11 @@ updated_cart = []
  cart
 end
     
-# create new item array
-# iterate through cart and coupons with while loop
-# if cart[i][:item] is the same as coupons[i][:item]
-  # subtract coupons[i][:count] from cart[i][:count] cart[i][count] -= coupons[i][:count]
-# else new_array << cart[i]
-# end and return new_array
 
 def apply_clearance(cart)
+  i = 0
+  while i < cart.length
+end
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
